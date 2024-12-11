@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Link de importacao da fonte roboto do Google fonts */
+
+*{
+    margin: 0;  /* Remove margens e preenchimentos padrão */
+    padding: 0;  /* Remove preenchimentos padrão */
+    font-family: "Roboto", sans-serif;  /* Define a fonte padrão como */
+    font-style: normal; /* Define o estilo padrão da fonte como normal */
+}
+
+body{
+    background-color: #f0f0f0 ; /* Define a cor de fundo */
+    color: #333333; /* Define a cor do texto */
+}
+
+h1{
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px;  /* Adiciona um espaço abaixo do título */
+
+}
+
+h2{
+    text-align: center;  /* Centraliza o texto */
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do subtítulo */
+
+}
+
+#img1{
+    margin-left: -50px;  /* Move a imagem para a esquerda */
+}
+
+header nav{
+    text-align: center;
+    margin-top: 20px; /* Adiciona um espaço superior */
+
+}
+
+header nav a{
+    margin-left: 20px;  /* Adiciona um espaço entre os links */
+    text-decoration: none;  /* Remove o sublinhado dos links */
+    color: white;  /* Define a cor do texto como branco */
+    background-color: #D32F2F ; /* Define a cor do backgroud vermelho */
+    padding: 10px 30px; /* Adiciona preenchimento ao redor do texto */
+    border-radius: 10px;  /* Deixa as bordas dos botões arredondadas */
+    
+    
+}
+
+header nav a:hover { /* Estilo para os links quando o cursor passa sobre eles */
+    background-color: #B71C1C ;    /* Altera a cor de fundo para um vermelho mais escuro */
+    transition: background-color 0.3s ease;  /* Adiciona uma transição suave para a mudança de cor */
+}
+
+main div{
+    display: none;     /* Define que as divisões estão inicialmente ocultas */
+
+   
+    margin-top: 100px;     /* Adiciona espaço acima e nas laterais */
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 20px;     /* Deixa as bordas arredondadas */
+    padding: 50px 50px;     /* Adiciona preenchimento interno */
+    background-color: white;     /* Define a cor de fundo como branca */
+
+
+}
+
+main div:target{ /* Estilo para a divisão que corresponde ao ID do link clicado */
+    display: block;  /* Torna a divisão visível */
+}
+

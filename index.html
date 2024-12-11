@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrabalhoWeb</title>
+    <link rel="stylesheet" href="./Trabalho.css">
+</head>
+<body>
+<!-- 
+        Aluno: Julio Rodrigues de Sousa
+        RU: 4935943
+        
+-->
+
+    <header>  <!-- Cabeçalho da página -->
+        <nav> <!-- Barra de navegação com links para seções específicas -->
+            <a href="#sobre-mim">SOBRE MIM</a> <!-- Link para a seção "Sobre Mim" -->
+            <a href="#formacao">FORMACAO</a> <!-- Link para a seção "Formação" -->
+            <a href="#portfolio">PORTFOLIO</a>  <!-- Link para a seção "Portfólio" -->
+            <a href="#contato">CONTATO</a>   <!-- Link para a seção "Contato" -->
+        </nav>
+    </header>
+    <main> <!-- Conteúdo principal -->
+        <div id="sobre-mim"> <!-- Seção "Sobre Min" -->
+            <h1>Sobre Mim</h1> <!-- Titulo principal de uma seção -->
+            <p>Meu nome e Julio gosto de jogar videogames, gosto de animes e gosto tambem de estudar a lingua inglesa. Estou cursando ADS pois desejo ser um programador de games um dia, mas caso nao consiga gostaria de trabalhar na area.</p>
+        </div>
+
+        <div id="formacao"> <!-- Seção Formação -->
+            <h1>Formacao</h1>
+            <p>Cursando Analise e Desenvolvimento na Uninter.</p> <!-- Texto da seção -->
+        </div>
+
+        <div id="portfolio">  <!-- Seção "Portfólio" -->
+            <h1>Portfolio</h1>
+            <h2>Trabalho de analise de sistemas</h2>
+            <p>Diagrama AS IS:</p>
+            <img id="img1" width="500px" src="./Diagrama em branco.png" alt="Trabalho de analise de sistemas">
+            <!-- Imagem do diagrama AS IS -->
+            <p>Diagrama TO BE:</p>
+            <img width="500px" src="./WhatsApp Image 2024-06-24 at 19.21.07.jpeg" alt="Trabalho de analise de sistemas">
+            <!-- Imagem do diagrama TO BE -->
+        </div>
+
+        <div id="contato">  <!-- Seção "Contato" -->
+            <h1>Contato</h1>
+            <form action="https://formsubmit.co/seu-email" method="POST"> <!-- Formulário para contato -->
+                <label for="nome">Nome:</label>  <!-- Campo para nome -->
+                <br>  <!-- Pular Linha -->
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">E-mail:</label>  <!-- Campo para e-mail -->
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="mensagem">Mensagem:</label>  <!-- Campo para mensagem -->
+                <br>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>  <!-- Botão para enviar o formulário -->
+            </form>
+        </div>
+    </main>
+</body>
+</html>
